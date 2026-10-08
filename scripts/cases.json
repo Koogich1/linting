@@ -1,0 +1,92 @@
+[
+	{
+		"dir": "nestjs",
+		"file": "src/modules/users/users.repository.ts",
+		"expect": ["@typescript-eslint/naming-convention", "no-restricted-syntax"]
+	},
+	{
+		"dir": "nestjs",
+		"file": "src/modules/users/dto/create-user.dto.ts",
+		"expect": ["no-restricted-syntax"]
+	},
+	{
+		"dir": "nestjs",
+		"file": "src/modules/users/dto/update-user.dto.ts",
+		"expect": ["no-restricted-syntax"]
+	},
+	{
+		"dir": "nestjs",
+		"file": "src/modules/users/schemas/users.schema.ts",
+		"expect": ["no-restricted-syntax"]
+	},
+	{
+		"dir": "nestjs",
+		"file": "src/modules/users/users.module.ts",
+		"expect": ["nest-module-md/multiline-when-many"]
+	},
+	{
+		"dir": "nestjs",
+		"file": "src/modules/users/users.service.ts",
+		"expect": ["no-restricted-syntax"]
+	},
+	{
+		"dir": "nestjs",
+		"file": "src/modules/orders/orders.repository.ts",
+		"expect": []
+	},
+	{
+		"dir": "nestjs",
+		"file": "src/modules/orders/dto/create-order.dto.ts",
+		"expect": []
+	},
+	{
+		"dir": "nestjs",
+		"file": "src/modules/orders/schemas/orders.schema.ts",
+		"expect": []
+	},
+	{
+		"dir": "nestjs",
+		"file": "src/modules/orders/orders.module.ts",
+		"expect": []
+	},
+	{
+		"dir": "nestjs",
+		"file": "src/modules/orders/orders.service.ts",
+		"expect": []
+	},
+	{
+		"dir": "nextjs-fsd",
+		"file": "src/shared/lib/session.ts",
+		"expect": ["boundaries/element-types"]
+	},
+	{
+		"dir": "nextjs-fsd",
+		"file": "src/widgets/header/ui/Header.tsx",
+		"expect": ["no-restricted-imports"]
+	},
+	{
+		"dir": "nextjs-fsd",
+		"file": "src/entities/user/ui/UserBadge.tsx",
+		"expect": ["boundaries/element-types"]
+	},
+	{
+		"dir": "nextjs-fsd",
+		"file": "src/shared/ui/Button.tsx",
+		"expect": []
+	},
+	{
+		"dir": "nextjs-fsd",
+		"file": "src/entities/user/ui/UserCard.tsx",
+		"expect": []
+	},
+	{
+		"dir": "nextjs-fsd",
+		"file": "src/features/auth/ui/LoginForm.tsx",
+		"expect": []
+	},
+	{
+		"dir": "nextjs-fsd",
+		"file": "src/widgets/sidebar/ui/Sidebar.tsx",
+		"expect": []
+	}
+]

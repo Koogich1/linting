@@ -1,0 +1,35 @@
+{
+	"name": "layered-eslint-config",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"description": "ESLint flat config split by responsibility and by layer, for NestJS and Next.js (FSD) codebases where most code is AI-generated.",
+	"license": "MIT",
+	"scripts": {
+		"test": "node scripts/verify.mjs",
+		"lint": "prettier --check .",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@stylistic/eslint-plugin": "^5.10.0",
+		"eslint": "^9.39.1",
+		"eslint-config-next": "^16.0.7",
+		"eslint-config-prettier": "^10.1.8",
+		"eslint-import-resolver-typescript": "^4.4.4",
+		"eslint-plugin-boundaries": "^5.4.0",
+		"eslint-plugin-effector": "^0.17.0",
+		"eslint-plugin-import": "^2.32.0",
+		"eslint-plugin-import-x": "^4.16.1",
+		"eslint-plugin-simple-import-sort": "^12.1.1",
+		"eslint-plugin-unicorn": "^64.0.0",
+		"eslint-plugin-unused-imports": "^4.4.1",
+		"next": "^16.4.0",
+		"prettier": "^3.7.4",
+		"react": "^19.3.0",
+		"react-dom": "^19.3.0",
+		"typescript": "^5.9.3",
+		"typescript-eslint": "^8.58.2"
+	},
+	"packageManager": "pnpm@10.12.1",
+	"author": "Dmitriy Nesterov"
+}
